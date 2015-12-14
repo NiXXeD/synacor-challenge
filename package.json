@@ -1,12 +1,16 @@
 {
   "name": "synacor-challenge",
   "version": "1.0.0",
-  "description": "",
-  "main": "what.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Solving the Synacor Challenge with NodeJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NiXXeD/synacor-challenge"
   },
-  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Andy Christianson",
   "license": "ISC",
   "dependencies": {
     "lodash": "^3.10.1"
