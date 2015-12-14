@@ -1,1 +1,1 @@
-require('./vm')
+require('./vm').start()
