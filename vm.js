@@ -16,6 +16,7 @@ function setRegister(a, b) {
     register[a - 32768] = b
 }
 
+var input = null
 var register = [0, 0, 0, 0, 0, 0, 0, 0]
 var stack = []
 var memory = require('./load')
@@ -182,6 +183,18 @@ while (i < memory.length) {
         //out: 19 a - write the character represented by ascii code <a> to the terminal
         a = value(memory[++i])
         process.stdout.write(String.fromCharCode(a))
+    } else if (op === 20) {
+        //in: 20 a - read a character from the terminal and write its ascii code to <a>;
+        //it can be assumed that once input starts, it will continue until a newline is
+        //encountered; this means that you can safely read whole lines from the keyboard
+        //and trust that they will be fully read
+
+        if (!input) input = require('readline-sync').prompt() + '\n'
+        a = memory[++i]
+        b = input.slice(0, 1)
+        input = input.slice(1)
+        c = b.charCodeAt(0)
+        setRegister(a, c)
     } else {
         console.log('Unknown operation', op, 'Halting...')
         break;

@@ -12,5 +12,7 @@
   },
   "author": "Andy Christianson",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "readline-sync": "^1.2.21"
+  }
 }
