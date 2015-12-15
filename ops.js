@@ -90,8 +90,6 @@ var api = {
             input = require('readline-sync').prompt()
 
             var func = {
-                sr: () => setRegister(32775, 12345),
-                pr: () => console.log(api.register),
                 save: () => {
                     fs.writeFileSync('./save.json', JSON.stringify({
                         memory: api.memory,
