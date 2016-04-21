@@ -1,7 +1,6 @@
 var fs = require('fs')
 
 var input = null
-
 var api = {
     ops: ['halt', 'set', 'push', 'pop', 'eq', 'gt', 'jmp',
         'jt', 'jf', 'add', 'mult', 'mod', 'and', 'or', 'not',
@@ -90,6 +89,21 @@ var api = {
             input = require('readline-sync').prompt()
 
             var func = {
+                hack: () => {
+                    api.register[7] = 25734
+
+                    //api.memory[5490] = 5498
+
+                    //quick skip teleporter
+                    //api.memory[5485] = 0
+                    //api.memory[5488] = 5
+
+                    //tail call optimization?
+                    api.memory[6045] = 6
+                    api.memory[6065] = 6
+
+                    return 'use teleporter\n'
+                },
                 save: () => {
                     fs.writeFileSync('./save.json', JSON.stringify({
                         memory: api.memory,
@@ -107,8 +121,7 @@ var api = {
             }[input]
 
             if (func) {
-                func()
-                input = 'look\n'
+                input = func() || 'look\n'
             } else {
                 input += '\n'
             }

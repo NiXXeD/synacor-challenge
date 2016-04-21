@@ -1,8 +1,7 @@
 var fs = require('fs')
 
-
-module.exports = function() {
-    var memory = parseBin('challenge.bin')
+module.exports = function(bin) {
+    var memory = parseBin(bin)
     var register = register || [0, 0, 0, 0, 0, 0, 0, 0]
     var stack = stack || []
     return {memory, register, stack}
