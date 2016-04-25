@@ -91,14 +91,14 @@ var api = {
 
             var func = {
                 save: () => {
-                    fs.writeFileSync('./save.json', JSON.stringify({
+                    fs.writeFileSync('./spoilers/save.json', JSON.stringify({
                         memory: api.memory,
                         register: api.register,
                         stack: api.stack
                     }))
                 },
                 load: () => {
-                    var save = JSON.parse(fs.readFileSync('./save.json', 'utf8'))
+                    var save = JSON.parse(fs.readFileSync('./spoilers/save.json', 'utf8'))
                     api.memory = save.memory
                     api.register = save.register
                     api.stack = save.stack
@@ -107,8 +107,7 @@ var api = {
             }[input]
 
             if (func) {
-                func()
-                input = 'look\n'
+                input = func() || 'look\n'
             } else {
                 input += '\n'
             }
