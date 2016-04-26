@@ -8,7 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index"
+    "start": "babel-node index",
+    "disassemble": "babel-node disassemble"
   },
   "author": "Andy Christianson",
   "license": "ISC",
