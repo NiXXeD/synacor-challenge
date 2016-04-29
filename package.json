@@ -17,6 +17,7 @@
   "author": "Andy Christianson",
   "license": "ISC",
   "dependencies": {
+    "js-combinatorics": "^0.5.1",
     "readline-sync": "1.2.21"
   }
 }
