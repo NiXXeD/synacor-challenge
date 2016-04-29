@@ -17,5 +17,7 @@ Extra game commands added
 ```
 save - saves stack, register, memory
 load - loads stack, register, memory
+hack coins - brute forces the coin problem solution
+hack teleporter - brute forces the teleporter problem solution
 exit - exit the game
 ```
