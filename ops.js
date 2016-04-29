@@ -90,6 +90,33 @@ var api = {
             input = require('readline-sync').prompt()
 
             var func = {
+                'hack coins': () => {
+                    //load answer calculated from coin.js
+                    require('./spoilers/coin')
+                    return 'inv\n'
+                },
+                'hack teleporter': () => {
+                    //load answer calculated from teleporter.js
+                    let answer = require('./spoilers/teleporter')
+
+                    //skip first part of the check
+                    api.memory[5451] = 21
+                    api.memory[5452] = 21
+                    api.memory[5453] = 21
+
+                    //set register 0 value to 6 for check at 5491
+                    api.memory[5485] = 6
+
+                    //set register 7 to the correct value using some existing NOOPs
+                    api.memory[5487] = 32775
+                    api.memory[5488] = answer
+
+                    //skip second part of the check
+                    api.memory[5489] = 21
+                    api.memory[5490] = 21
+
+                    return 'use teleporter\n'
+                },
                 save: () => {
                     fs.writeFileSync('./spoilers/save.json', JSON.stringify({
                         memory: api.memory,
@@ -135,10 +162,10 @@ var setRegister = (a, b) => {
 }
 var fixMath = a => a >= 32768 ? a % 32768 : a
 
-module.exports = function(register, stack, memory) {
-    api.register = register
-    api.stack = stack
-    api.memory = memory
+module.exports = function(load) {
+    api.register = load.register
+    api.stack = load.stack
+    api.memory = load.memory
     return api
 }
 

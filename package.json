@@ -17,7 +17,8 @@
   "author": "Andy Christianson",
   "license": "ISC",
   "dependencies": {
-    "js-combinatorics": "^0.5.1",
+    "js-combinatorics": "0.5.1",
+    "lowdb": "0.12.5",
     "readline-sync": "1.2.21"
   }
 }
