@@ -16,12 +16,12 @@ var api = {
     set: (a, b) => setRegister(a, value(b)),
 
     //push: 2 a - push <a> onto the stack
-    push: (a) => {
+    push: a => {
         api.stack.push(value(a))
     },
 
     //pop: 3 a - remove the top element from the stack and write it into <a>; empty stack = error
-    pop: (a) => {
+    pop: a => {
         if (api.stack.length) setRegister(a, api.stack.pop())
         else console.log('POP: empty stack!')
     },
@@ -169,10 +169,5 @@ var setRegister = (a, b) => {
 }
 var fixMath = a => a >= 32768 ? a % 32768 : a
 
-module.exports = function(load) {
-    api.register = load.register
-    api.stack = load.stack
-    api.memory = load.memory
-    return api
-}
+module.exports = api
 

@@ -6,7 +6,10 @@ const vm = {
     register: [0, 0, 0, 0, 0, 0, 0, 0],
     stack: []
 }
-const api = require('./ops')(vm)
+const api = require('./ops')
+api.memory = vm.memory
+api.register = vm.register
+api.stack = vm.stack
 
 let i = 0
 while (i < api.memory.length) {

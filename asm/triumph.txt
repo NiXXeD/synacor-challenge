@@ -1,74 +1,74 @@
-OUT This was a triumph!
-OUT I'm making a note here:
-OUT Huge success!\n
+PRINT This was a triumph!
+PRINT I'm making a note here:
+PRINT Huge success!\n
 
-OUT It's hard to overstate
-OUT my satisfaction.\n
+PRINT It's hard to overstate
+PRINT my satisfaction.\n
 
-OUT Aperture Science:
-OUT We do what we must
-OUT because we can
-OUT For the good of all of us.
-OUT Except the ones who are dead.\n
+PRINT Aperture Science:
+PRINT We do what we must
+PRINT because we can
+PRINT For the good of all of us.
+PRINT Except the ones who are dead.\n
 
-OUT But there's no sense crying
-OUT over every mistake.
-OUT You just keep on trying
-OUT 'til you run out of cake.
-OUT And the science gets done.
-OUT And you make a neat gun
-OUT for the people who are
-OUT still alive.\n
+PRINT But there's no sense crying
+PRINT over every mistake.
+PRINT You just keep on trying
+PRINT 'til you run out of cake.
+PRINT And the science gets done.
+PRINT And you make a neat gun
+PRINT for the people who are
+PRINT still alive.\n
 
-OUT I'm not even angry...
-OUT I'm being so sincere right now.
-OUT Even though you broke my heart,
-OUT and killed me.\n
+PRINT I'm not even angry...
+PRINT I'm being so sincere right now.
+PRINT Even though you broke my heart,
+PRINT and killed me.\n
 
-OUT And tore me to pieces.
-OUT And threw every piece into a fire.
-OUT As they burned it hurt because
-OUT I was so happy for you!\n
+PRINT And tore me to pieces.
+PRINT And threw every piece into a fire.
+PRINT As they burned it hurt because
+PRINT I was so happy for you!\n
 
-OUT Now, these points of data
-OUT make a beautiful line.
-OUT And we're out of beta.
-OUT We're releasing on time!
-OUT So I'm GLaD I got burned!
-OUT Think of all the things we learned!
-OUT for the people who are
-OUT still alive.\n
+PRINT Now, these points of data
+PRINT make a beautiful line.
+PRINT And we're out of beta.
+PRINT We're releasing on time!
+PRINT So I'm GLaD I got burned!
+PRINT Think of all the things we learned!
+PRINT for the people who are
+PRINT still alive.\n
 
-OUT Go ahead and leave me...
-OUT I think I'd prefer to stay inside...
-OUT Maybe you'll find someone else
-OUT to help you.
-OUT Maybe Black Mesa?
-OUT That was a joke. Ha Ha. Fat Chance!\n
+PRINT Go ahead and leave me...
+PRINT I think I'd prefer to stay inside...
+PRINT Maybe you'll find someone else
+PRINT to help you.
+PRINT Maybe Black Mesa?
+PRINT That was a joke. Ha Ha. Fat Chance!\n
 
-OUT Anyway this cake is great!
-OUT It's so delicious and moist!\n
+PRINT Anyway this cake is great!
+PRINT It's so delicious and moist!\n
 
-OUT Look at me: still talking
-OUT when there's science to do!
-OUT When I look out there,
-OUT it makes me glad I'm not you.\n
+PRINT Look at me: still talking
+PRINT when there's science to do!
+PRINT When I look out there,
+PRINT it makes me glad I'm not you.\n
 
-OUT I've experiments to run.
-OUT There is research to be done.
-OUT On the people who are
-OUT still alive.
-OUT And believe me I am
-OUT still alive.
-OUT I'm doing science and I'm
-OUT still alive.
-OUT I feel fantastic and I'm
-OUT still alive.
-OUT While you're dying I'll be
-OUT still alive.
-OUT And when you're dead I will be
-OUT still alive\n
+PRINT I've experiments to run.
+PRINT There is research to be done.
+PRINT On the people who are
+PRINT still alive.
+PRINT And believe me I am
+PRINT still alive.
+PRINT I'm doing science and I'm
+PRINT still alive.
+PRINT I feel fantastic and I'm
+PRINT still alive.
+PRINT While you're dying I'll be
+PRINT still alive.
+PRINT And when you're dead I will be
+PRINT still alive\n
 
-OUT Still alive.\n
+PRINT Still alive.\n
 
-OUT Still alive.
+PRINT Still alive.
