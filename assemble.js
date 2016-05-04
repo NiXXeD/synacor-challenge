@@ -47,7 +47,7 @@ let output = _(inputLines)
     .map(value => {
         if (_.startsWith(value, ':')) {
             let label = _.find(labels, {name: value}) || {}
-            return label.instruction
+            return label.instruction + 1
         }
         return value
     })

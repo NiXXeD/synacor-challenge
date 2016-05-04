@@ -1,8 +1,6 @@
 const _ = require('lodash')
-const fs = require('fs')
-const filename = process.argv[2] || 'bin/challenge.bin'
 const vm = {
-    memory: parseBin(filename),
+    memory: require('./load'),
     register: [0, 0, 0, 0, 0, 0, 0, 0],
     stack: []
 }
@@ -24,10 +22,4 @@ while (i < api.memory.length) {
         break;
     }
     i++
-}
-
-function parseBin(file) {
-    let stream = fs.readFileSync(file)
-    return _.range(stream.length / 2)
-        .map(offset => stream.readUInt16LE(offset * 2))
 }
