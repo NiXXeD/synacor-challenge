@@ -12,12 +12,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
+    "assemble": "node assemble",
     "disassemble": "node disassemble"
   },
   "author": "Andy Christianson",
   "license": "ISC",
   "dependencies": {
     "js-combinatorics": "0.5.1",
+    "lodash": "4.11.2",
     "lowdb": "0.12.5",
     "readline-sync": "1.4.2"
   }
