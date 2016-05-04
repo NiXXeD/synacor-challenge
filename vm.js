@@ -1,6 +1,6 @@
 const _ = require('lodash')
 const fs = require('fs')
-const filename = process.argv[2] || 'challenge.bin'
+const filename = process.argv[2] || 'bin/challenge.bin'
 const vm = {
     memory: parseBin(filename),
     register: [0, 0, 0, 0, 0, 0, 0, 0],
