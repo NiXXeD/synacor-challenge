@@ -36,6 +36,16 @@ let output = _(inputLines)
         }
     })
     .flatten()
+
+    //registers
+    .map(value => {
+        if (/(a|b|c|d|e|f|g|h)x/i.test(value)) {
+            return value.toLowerCase().charCodeAt(0) + 32671
+        }
+        return value
+    })
+
+    //labels
     .map((value, index) => {
         if (_.startsWith(value, '::')) {
             let label = _.find(labels, {name: value.slice(1)}) || {}
@@ -51,6 +61,8 @@ let output = _(inputLines)
         }
         return value
     })
+
+    //ensure all numbers at the end
     .map(value => +value)
     .value()
 

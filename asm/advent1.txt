@@ -1,31 +1,31 @@
 PRINT Input any number of '(' and ')':
 :START
-IN 32768
+IN ax
 
 # ) character -1
-EQ 32769 32768 41
-JT 32769 :SUB_ONE
+EQ bx ax 41
+JT bx :SUB_ONE
 
 # ( character +1
-EQ 32769 32768 40
-JT 32769 :ADD_ONE
+EQ bx ax 40
+JT bx :ADD_ONE
 
 # non-paren character
 JMP :PRINT_ANSWER
 
 :SUB_ONE
-ADD 32775 32775 32767
+ADD cx cx 32767
 OUT 46
 JMP :START
 
 :ADD_ONE
-ADD 32775 32775 1
+ADD cx cx 1
 OUT 46
 JMP :START
 
 :PRINT_ANSWER
 PRINT \nThe answer is:
-MOD 32768 32775 10
-ADD 32768 32768 48
-OUT 32768
+MOD ax cx 10
+ADD ax ax 48
+OUT ax
 OUT 10
