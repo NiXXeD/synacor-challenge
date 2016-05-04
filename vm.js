@@ -20,7 +20,7 @@ while (i < api.memory.length) {
             .map(() => api.memory[++i]).concat([i])
         i = opFunc(...args) || i
     } else {
-        console.log('Unknown operation', op)
+        console.log(`Unknown op code "${op}" at instruction "${i}".`)
         break;
     }
     i++
