@@ -1,0 +1,792 @@
+{
+  "selfCheck": [
+    "Test string",
+    "self-test complete, all tests pass\n",
+    "complete"
+  ],
+  "rooms": {
+    "foothills": [
+      {
+        "id": 6142,
+        "name": "Foothills",
+        "desc": "You find yourself standing at the base of an enormous mountain.  At its base to the north, there is a massive doorway.  A sign nearby reads \"Keep out!  Definitely no treasure within!\"",
+        "exitCount": 2,
+        "exits": [
+          "doorway",
+          "south"
+        ]
+      },
+      {
+        "id": 6350,
+        "name": "Foothills",
+        "desc": "As you begin to leave, you feel the urge for adventure pulling you back...",
+        "exitCount": 1,
+        "exits": [
+          "north"
+        ]
+      },
+      {
+        "id": 6441,
+        "name": "Dark cave",
+        "desc": "This seems to be the mouth of a deep cave.  As you peer north into the darkness, you think you hear the echoes of bats deeper within.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 6597,
+        "name": "Dark cave",
+        "desc": "The cave is somewhat narrow here, and the light from the doorway to the south is quite dim.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 6711,
+        "name": "Dark cave",
+        "desc": "The cave acoustics dramatically change as you find yourself at a legde above a large chasm.  There is barely enough light here to notice a rope bridge leading out into the dark emptiness.",
+        "exitCount": 2,
+        "exits": [
+          "bridge",
+          "south"
+        ]
+      },
+      {
+        "id": 6922,
+        "name": "Rope bridge",
+        "desc": "This rope bridge creaks as you walk along it.  You aren't sure how old it is, or whether it can even support your weight.",
+        "exitCount": 2,
+        "exits": [
+          "continue",
+          "back"
+        ]
+      },
+      {
+        "id": 7070,
+        "name": "Falling through the air!",
+        "desc": "As you continue along the bridge, it snaps!  You try to grab the bridge, but it evades your grasp in the darkness.  You are plummeting quickly downward into the chasm...",
+        "exitCount": 1,
+        "exits": [
+          "down"
+        ]
+      },
+      {
+        "id": 7270,
+        "name": "Moss cavern",
+        "desc": "You are standing in a large cavern full of bioluminescent moss.  It must have broken your fall!  The cavern extends to the east and west; at the west end, you think you see a passage leading out of the cavern.",
+        "exitCount": 2,
+        "exits": [
+          "west",
+          "east"
+        ]
+      },
+      {
+        "id": 7502,
+        "name": "Moss cavern",
+        "desc": "You are standing in a large cavern full of bioluminescent moss.  The cavern extends to the west.",
+        "exitCount": 1,
+        "exits": [
+          "west"
+        ]
+      },
+      {
+        "id": 7616,
+        "name": "Moss cavern",
+        "desc": "You are standing in a large cavern full of bioluminescent moss.  The cavern extends to the east.  There is a crevise in the rocks which opens into a passage.",
+        "exitCount": 2,
+        "exits": [
+          "east",
+          "passage"
+        ]
+      },
+      {
+        "id": 7799,
+        "name": "Passage",
+        "desc": "You are in a crevise on the west wall of the moss cavern.  A dark passage leads further west.  There is a ladder here which leads down into a smaller, moss-filled cavern below.",
+        "exitCount": 3,
+        "exits": [
+          "cavern",
+          "ladder",
+          "darkness"
+        ]
+      },
+      {
+        "id": 8007,
+        "name": "Passage",
+        "desc": "὏ᾉ",
+        "exitCount": 2,
+        "exits": [
+          "continue",
+          "back"
+        ]
+      },
+      {
+        "id": 8163,
+        "name": "Twisty passages",
+        "desc": "You are in a maze of twisty little passages, all dimly lit by more bioluminescent moss.  There is a ladder here leading up.",
+        "exitCount": 5,
+        "exits": [
+          "ladder",
+          "north",
+          "south",
+          "east",
+          "west"
+        ]
+      },
+      {
+        "id": 8332,
+        "name": "Twisty passages",
+        "desc": "You are in a twisty maze of little passages, all alike.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 8421,
+        "name": "Twisty passages",
+        "desc": "You are in a maze of little twisty passages, all alike.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "east"
+        ]
+      },
+      {
+        "id": 8510,
+        "name": "Twisty passages",
+        "desc": "You are in a maze of alike little passages, all twisty.\n\nThe passage to the east looks very dark; you think you hear a Grue.",
+        "exitCount": 4,
+        "exits": [
+          "north",
+          "south",
+          "west",
+          "east"
+        ]
+      },
+      {
+        "id": 8673,
+        "name": "Twisty passages",
+        "desc": "You are in a little maze of twisty passages, all alike.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "east"
+        ]
+      },
+      {
+        "id": 8762,
+        "name": "Twisty passages",
+        "desc": "You are in a twisty alike of little passages, all maze.\n\nThe east passage appears very dark; you feel likely to be eaten by a Grue.",
+        "exitCount": 4,
+        "exits": [
+          "north",
+          "south",
+          "west",
+          "east"
+        ]
+      },
+      {
+        "id": 8932,
+        "name": "Twisty passages",
+        "desc": "You are in a maze of alike twisty passages, all little.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "east",
+          "south"
+        ]
+      },
+      {
+        "id": 9021,
+        "name": "Twisty passages",
+        "desc": "You are in a maze of twisty little passages, all alike.",
+        "exitCount": 1,
+        "exits": [
+          "west"
+        ]
+      },
+      {
+        "id": 9098,
+        "name": "Twisty passages",
+        "desc": "You are in a maze of twisty little passages, all alike.",
+        "exitCount": 1,
+        "exits": [
+          "west"
+        ]
+      },
+      {
+        "id": 9175,
+        "name": "Twisty passages",
+        "desc": "You are in a twisty maze of little passages, all alike.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 9259,
+        "name": "Dark passage",
+        "desc": "You are in a narrow passage.  There is darkness to the west, but you can barely see a glowing opening to the east.",
+        "exitCount": 2,
+        "exits": [
+          "west",
+          "east"
+        ]
+      },
+      {
+        "id": 9397,
+        "name": "Dark passage",
+        "desc": "You are in a dark, narrow passage.",
+        "exitCount": 2,
+        "exits": [
+          "east",
+          "west"
+        ]
+      },
+      {
+        "id": 9455,
+        "name": "Dark passage",
+        "desc": "You are in a dark, narrow passage.",
+        "exitCount": 2,
+        "exits": [
+          "east",
+          "west"
+        ]
+      },
+      {
+        "id": 9513,
+        "name": "Dark passage",
+        "desc": "You are in a dark, narrow passage.  To the west, you spot some vegetation where the passage expands.",
+        "exitCount": 2,
+        "exits": [
+          "east",
+          "west"
+        ]
+      },
+      {
+        "id": 9637,
+        "name": "Ruins",
+        "desc": "You stand in a large cavern with a huge ruin to the north, overgrown by plant life.  There is a large stone archway to the north acting as the doorway to the ruined complex.  A crevice in the rock to the east leads to an alarmingly dark passageway.",
+        "exitCount": 2,
+        "exits": [
+          "east",
+          "north"
+        ]
+      },
+      {
+        "id": 9903,
+        "name": "Ruins",
+        "desc": "You are in the once-opulent foyer of a massive ruined complex.  There is a door to the south leading to the overgrowth outside and stairs to the north which lead into a larger hall.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 10103,
+        "name": "Ruins",
+        "desc": "You stand in the massive central hall of these ruins.  The walls are crumbling, and vegetation has clearly taken over.  Rooms are attached in all directions.  There is a strange monument in the center of the hall with circular slots and unusual symbols.  It reads:\n\n_ + _ * _^2 + _^3 - _ = 399",
+        "exitCount": 4,
+        "exits": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ]
+      },
+      {
+        "id": 17661,
+        "name": "Fumbling around in the darkness",
+        "desc": "Without a source of light, you have become hopelessly lost and are fumbling around in the darkness.",
+        "exitCount": 2,
+        "exits": [
+          "forward",
+          "back"
+        ]
+      },
+      {
+        "id": 17806,
+        "name": "Fumbling around in the darkness",
+        "desc": "You can't seem to find your way.  However, you do think you hear low growling in the distance.",
+        "exitCount": 2,
+        "exits": [
+          "run",
+          "investigate"
+        ]
+      },
+      {
+        "id": 17949,
+        "name": "Panicked and lost",
+        "desc": "The growling is getting louder.  Did I mention there are Grues down here?",
+        "exitCount": 3,
+        "exits": [
+          "run",
+          "wait",
+          "hide"
+        ]
+      },
+      {
+        "id": 18055,
+        "name": "eaten",
+        "desc": "",
+        "exitCount": 0,
+        "exits": []
+      }
+    ],
+    "synacor": [
+      {
+        "id": 11267,
+        "name": "Synacor Headquarters",
+        "desc": "You stand in the lobby of what appears to be a really fun place to work!  Sadly, there doesn't seem to be anyone around at the moment, so you make a note to call them later.  The bookshelf here looks like it might have something interesting in it, though.",
+        "exitCount": 1,
+        "exits": [
+          "outside"
+        ]
+      },
+      {
+        "id": 11552,
+        "name": "Synacor Headquarters",
+        "desc": "It's a warm, sunny day!  While the breeze from Lake Erie is certainly refreshing, you don't see anything here that will help you with your quest.",
+        "exitCount": 1,
+        "exits": [
+          "inside"
+        ]
+      }
+    ],
+    "beach": [
+      {
+        "id": 11726,
+        "name": "Beach",
+        "desc": "This is a sandy beach in a cove on some tropical island.  It is raining.  The ocean is to your south, and heavy foliage is to your north; the beach extends west and east.",
+        "exitCount": 3,
+        "exits": [
+          "west",
+          "east",
+          "north"
+        ]
+      },
+      {
+        "id": 11919,
+        "name": "Beach",
+        "desc": "This is a sandy beach in a cove on some tropical island.  It is raining.  To your west is an embankment of the cove which looks too steep to climb.  The beach extends to the east, and there is dense foliage to the north.  The ocean to the south seems uninviting.",
+        "exitCount": 2,
+        "exits": [
+          "east",
+          "north"
+        ]
+      },
+      {
+        "id": 12199,
+        "name": "Beach",
+        "desc": "This is a sandy beach in a cove on some tropical island.  It is raining.  The steep cove embankment to your east blocks your path, and the ocean waters here look unsafe.  The beach extends to the west, and there is dense foliage to the north.",
+        "exitCount": 2,
+        "exits": [
+          "west",
+          "north"
+        ]
+      },
+      {
+        "id": 12459,
+        "name": "Tropical Island",
+        "desc": "The large trees here seem to be protecting you from the rain.  As you push through the undergrowth, you can hear birds chirping overhead.  There is a steep rock face to your west blocking your path.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "east"
+        ]
+      },
+      {
+        "id": 12691,
+        "name": "Tropical Island",
+        "desc": "The east embankment of the cove towers over you.  It produces a small waterfall here which cascades excitedly into a pool.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 12847,
+        "name": "Tropical Island",
+        "desc": "The embankment of the cove come toegher here to your east and west.  Between these tall rock faces, there is a narrow, overgrown path leading north.  You hear waves lapping up on a beach through the dense vegetation to your south.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 13106,
+        "name": "Tropical Island",
+        "desc": "You are on a narrow path between two steep rock faces which look like they have been here for thousands of years.  Rain trickles down through the vegetation and moss, and through the leaves you can occasionally see a sliver of light hundreds of feet above you where the rock walls end.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 13420,
+        "name": "Tropical Island",
+        "desc": "The narrow path slopes downward to the north and leads to the mouth of a small cave.  A sign nearby reads \"Treasure Vault Access\", but different handwriting has crossed this out and written \"Lair of Horrible Monster!  All non-pirates keep out!\".",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 13694,
+        "name": "Tropical Cave",
+        "desc": "You stand at the entrance to a natural cave which looks like it hasn't been visited in quite some time.  Light pours in through the opening to the south, while fireflies light the path further into the cave to the north.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 13941,
+        "name": "Tropical Cave",
+        "desc": "Fireflies slowly drift around you and light the tunnel, which seems to get brighter to the south, but dimmer to the north.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 14090,
+        "name": "Tropical Cave",
+        "desc": "The cave is a little wider here.  You find the cobweb-encrusted remains of a small camp, and although you don't suspect the broken pieces of tables and chairs will prove useful to your quest, the fireflies seem to like using the debris as a shelter.  A passageway leads north and south, and there is an alcove to the east.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "east"
+        ]
+      },
+      {
+        "id": 14444,
+        "name": "Tropical Cave Alcove",
+        "desc": "At the back of this alcove, there is a small table, a chair, and a broken lantern.  It looks like this space was used much more recently than the camp to the west.",
+        "exitCount": 1,
+        "exits": [
+          "west"
+        ]
+      },
+      {
+        "id": 14634,
+        "name": "Tropical Cave",
+        "desc": "This tunnel slopes deeper underground to the north, but the fireflies are all around to light your path.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "id": 14765,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '*' symbol.",
+        "exitCount": 2,
+        "exits": [
+          "east",
+          "south"
+        ]
+      },
+      {
+        "id": 14916,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting the number '8'.",
+        "exitCount": 3,
+        "exits": [
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 15074,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '-' symbol.",
+        "exitCount": 3,
+        "exits": [
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 15230,
+        "name": "Vault Door",
+        "desc": "You stand before the door to the vault; it has a large '30' carved into it.  Affixed to the wall near the door, there is a running hourglass which never seems to run out of sand.\n\nThe floor of this room is a large mosaic depicting the number '1'.",
+        "exitCount": 3,
+        "exits": [
+          "south",
+          "west",
+          "vault"
+        ]
+      },
+      {
+        "id": 15505,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting the number '4'.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "east",
+          "south"
+        ]
+      },
+      {
+        "id": 15664,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '*' symbol.",
+        "exitCount": 4,
+        "exits": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 15826,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting the number '11'.",
+        "exitCount": 4,
+        "exits": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 15991,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '*' symbol.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 16148,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '+' symbol.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "east",
+          "south"
+        ]
+      },
+      {
+        "id": 16305,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting the number '4'.",
+        "exitCount": 4,
+        "exits": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 16469,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '-' symbol.",
+        "exitCount": 4,
+        "exits": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 16631,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting the number '18'.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "id": 16791,
+        "name": "Vault Antechamber",
+        "desc": "You are in the antechamber to a grid of rooms that control the door to the vault.  You notice the number '22' is carved into the orb's pedestal.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "east",
+          "south"
+        ]
+      },
+      {
+        "id": 16971,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '-' symbol.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "east",
+          "west"
+        ]
+      },
+      {
+        "id": 17127,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting the number '9'.",
+        "exitCount": 3,
+        "exits": [
+          "north",
+          "east",
+          "west"
+        ]
+      },
+      {
+        "id": 17285,
+        "name": "Vault Lock",
+        "desc": "You are in a grid of rooms that control the door to the vault.\n\nThe floor of this room is a large mosaic depicting a '*' symbol.",
+        "exitCount": 2,
+        "exits": [
+          "north",
+          "west"
+        ]
+      },
+      {
+        "id": 17436,
+        "name": "Vault",
+        "desc": "This vault contains incredible riches!  Piles of gold and platinum coins surround you, and the walls are adorned with topazes, rubies, sapphires, emeralds, opals, dilithium crystals, elerium-115, and unobtainium.",
+        "exitCount": 1,
+        "exits": [
+          "leave"
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "tablet",
+      "desc": "The tablet seems appropriate for use as a writing surface but is unfortunately blank.  Perhaps you should USE it as a writing surface..."
+    },
+    {
+      "name": "empty lantern",
+      "desc": "The lantern seems to have quite a bit of wear but appears otherwise functional.  It is, however, sad that it is out of oil."
+    },
+    {
+      "name": "lantern",
+      "desc": "The lantern seems to have quite a bit of wear but appears otherwise functional.  It is off but happily full of oil."
+    },
+    {
+      "name": "lit lantern",
+      "desc": "The lantern seems to have quite a bit of wear.  It is lit and producing a bright light."
+    },
+    {
+      "name": "can",
+      "desc": "This can is full of high-quality lantern oil."
+    },
+    {
+      "name": "red coin",
+      "desc": "This coin is made of a red metal.  It has two dots on one side."
+    },
+    {
+      "name": "corroded coin",
+      "desc": "This coin is somewhat corroded.  It has a triangle on one side."
+    },
+    {
+      "name": "shiny coin",
+      "desc": "This coin is somehow still quite shiny.  It has a pentagon on one side."
+    },
+    {
+      "name": "concave coin",
+      "desc": "This coin is slightly rounded, almost like a tiny bowl.  It has seven dots on one side."
+    },
+    {
+      "name": "blue coin",
+      "desc": "This coin is made of a blue metal.  It has nine dots on one side."
+    },
+    {
+      "name": "teleporter",
+      "desc": "This small device has a button on it and reads \"teleporter\" on the side."
+    },
+    {
+      "name": "business card",
+      "desc": "This business card has \"synacor.com\" printed in red on one side."
+    },
+    {
+      "name": "orb",
+      "desc": "This is a clear glass sphere about the size of a tennis ball."
+    },
+    {
+      "name": "mirror",
+      "desc": "This is a rather mundane hand-held mirror from the otherwise magnificent vault room.  What USE could it possibly have?"
+    },
+    {
+      "name": "strange book",
+      "desc": "The cover of this book subtly swirls with colors.  It is titled \"A Brief Introduction to Interdimensional Physics\".  It reads:\n\nRecent advances in interdimensional physics have produced fascinating\npredictions about the fundamentals of our universe!  For example,\ninterdimensional physics seems to predict that the universe is, at its root, a\npurely mathematical construct, and that all events are caused by the\ninteractions between eight pockets of energy called \"registers\".\nFurthermore, it seems that while the lower registers primarily control mundane\nthings like sound and light, the highest register (the so-called \"eighth\nregister\") is used to control interdimensional events such as teleportation.\n\nA hypothetical such teleportation device would need to have have exactly two\ndestinations.  One destination would be used when the eighth register is at its\nminimum energy level - this would be the default operation assuming the user\nhas no way to control the eighth register.  In this situation, the teleporter\nshould send the user to a preconfigured safe location as a default.\n\nThe second destination, however, is predicted to require a very specific\nenergy level in the eighth register.  The teleporter must take great care to\nconfirm that this energy level is exactly correct before teleporting its user!\nIf it is even slightly off, the user would (probably) arrive at the correct\nlocation, but would briefly experience anomalies in the fabric of reality\nitself - this is, of course, not recommended.  Any teleporter would need to test\nthe energy level in the eighth register and abort teleportation if it is not\nexactly correct.\n\nThis required precision implies that the confirmation mechanism would be very\ncomputationally expensive.  While this would likely not be an issue for large-\nscale teleporters, a hypothetical hand-held teleporter would take billions of\nyears to compute the result and confirm that the eighth register is correct.\n\nIf you find yourself trapped in an alternate dimension with nothing but a\nhand-held teleporter, you will need to extract the confirmation algorithm,\nreimplement it on more powerful hardware, and optimize it.  This should, at the\nvery least, allow you to determine the value of the eighth register which would\nhave been accepted by the teleporter's confirmation mechanism.\n\nThen, set the eighth register to this value, activate the teleporter, and\nbypass the confirmation mechanism.  If the eighth register is set correctly, no\nanomalies should be experienced, but beware - if it is set incorrectly, the\nnow-bypassed confirmation mechanism will not protect you!\n\nOf course, since teleportation is impossible, this is all totally ridiculous."
+    },
+    {
+      "name": "journal",
+      "desc": "Fireflies were using this dusty old journal as a resting spot until you scared them off.  It reads:\n\nDay 1: We have reached what seems to be the final in a series of puzzles guarding an ancient treasure.  I suspect most adventurers give up long before this point, but we're so close!  We must press on!\n\nDay 1: P.S.: It's a good thing the island is tropical.  We should have food for weeks!\n\nDay 2: The vault appears to be sealed by a mysterious force - the door won't budge an inch.  We don't have the resources to blow it open, and I wouldn't risk damaging the contents even if we did.  We'll have to figure out the lock mechanism.\n\nDay 3: The door to the vault has a number carved into it.  Each room leading up to the vault has more numbers or symbols embedded in mosaics in the floors.  We even found a strange glass orb in the antechamber on a pedestal itself labeled with a number.  What could they mean?\n\nDay 5: We finally built up the courage to touch the strange orb in the antechamber.  It flashes colors as we carry it from room to room, and sometimes the symbols in the rooms flash colors as well.  It simply evaporates if we try to leave with it, but another appears on the pedestal in the antechamber shortly thereafter.  It also seems to do this even when we return with it to the antechamber from the other rooms.\n\nDay 8: When the orb is carried to the vault door, the numbers on the door flash black, and then the orb evaporates.  Did we do something wrong?  Doesn't the door like us?  We also found a small hourglass near the door, endlessly running.  Is it waiting for something?\n\nDay 13: Some of my crew swear the orb actually gets heaver or lighter as they walk around with it.  Is that even possible?  They say that if they walk through certain rooms repeatedly, they feel it getting lighter and lighter, but it eventually just evaporates and a new one appears as usual.\n\nDay 21: Now I can feel the orb changing weight as I walk around.  It depends on the area - the change is very subtle in some places, but certainly more noticeable in others, especially when I walk into a room with a larger number or out of a room marked '*'.  Perhaps we can actually control the weight of this mysterious orb?\n\nDay 34: One of the crewmembers was wandering the rooms today and claimed that the numbers on the door flashed white as he approached!  He said the door still didn't open, but he noticed that the hourglass had run out and flashed black.  When we went to check on it, it was still running like it always does.  Perhaps he is going mad?  If not, which do we need to appease: the door or the hourglass?  Both?\n\nDay 55: The fireflies are getting suspicious.  One of them looked at me funny today and then flew off.  I think I saw another one blinking a little faster than usual.  Or was it a little slower?  We are getting better at controlling the weight of the orb, and we think that's what the numbers are all about.  The orb starts at the weight labeled on the pedestal, and goes down as we leave a room marked '-', up as we leave a room marked '+', and up even more as we leave a room marked '*'.  Entering rooms with larger numbers has a greater effect.\n\nDay 89: Every once in a great while, one of the crewmembers has the same story: that the door flashes white, the hourglass had already run out, it flashes black, and the orb evaporates.  Are we too slow?  We can't seem to find a way to make the orb's weight match what the door wants before the hourglass runs out.  If only we could find a shorter route through the rooms...\n\nDay 144: We are abandoning the mission.  None of us can work out the solution to the puzzle.  I will leave this journal here to help future adventurers, though I am not sure what help it will give.  Good luck!"
+    }
+  ],
+  "misc": [
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "dbqpwuiolxv8WTYUIOAHXVM"
+  ],
+  "actions": [
+    "go",
+    "look",
+    "help",
+    "inv",
+    "take",
+    "drop",
+    "use"
+  ],
+  "orbs": [
+    "green",
+    "red",
+    "yellow",
+    "As you enter the room, the symbol on the floor briefly flashes ",
+    ".  The orb begins subtly glowing ",
+    "As you enter the room, the orb briefly flashes ",
+    ".  The number on the floor vibrates strangely beneath your feet.",
+    "  The orb seems to get heavier.",
+    "  The orb seems to get lighter.",
+    "  The orb shatters!\n\n",
+    "As you approach the vault door, ",
+    "the number on the vault door flashes black.",
+    "  The orb evaporates out of your hands.\n\n",
+    "the number on the vault door flashes white!",
+    "  The hourglass has already run out.  It flashes black and flips over, restarting the flow of sand.",
+    "  The hourglass is still running!  It flashes white!  You hear a click from the vault door.  The orb evaporates out of hour hands.\n\n",
+    "As you ",
+    "leave",
+    "enter",
+    " the room, the orb evaporates out of your hands!  It rematerializes on its pedestal.\n\n",
+    "The vault door is sealed.\n"
+  ]
+}

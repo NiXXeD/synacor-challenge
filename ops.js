@@ -122,6 +122,13 @@ var api = {
 
                 return 'use teleporter\n'
             },
+            'write memory': () => {
+                let outputPath = './bin/savedmemory.bin'
+                let buffer = Buffer.allocUnsafe(api.memory.length * 2)
+                api.memory.forEach((v, i) => buffer.writeUInt16LE(v, i * 2))
+                fs.writeFileSync(outputPath, buffer)
+                console.log('Memory saved.')
+            },
             save: () => {
                 fs.writeFileSync('./spoilers/save.json', JSON.stringify({
                     memory: api.memory,
@@ -138,7 +145,6 @@ var api = {
             exit: api.halt
         }
 
-        // console.log('input', input.replace(/\n/g, '\\n'))
         let current = input.match(/^([^\n]+)\n*/)
         if (current && commands.hasOwnProperty(current[1])) {
             input = input.replace(current[0], '')
