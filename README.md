@@ -12,8 +12,9 @@ Extra Game Commands
 ---
 ```
 autoplay - plays the entire game start to finish
-hack coins - brute forces the coin problem solution
-hack teleporter - brute forces the teleporter problem solution
+hack coins - solves the coin problem
+hack teleporter - solves the teleporter problem
+hack orb - solves the orb problem
 save - saves stack, register, memory
 load - loads stack, register, memory
 exit - exit the game

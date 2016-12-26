@@ -1,8 +1,8 @@
-var fs = require('fs')
+const fs = require('fs')
 
-var input = null
+let input = null
 
-var api = {
+let api = {
     ops: ['halt', 'set', 'push', 'pop', 'eq', 'gt', 'jmp',
         'jt', 'jf', 'add', 'mult', 'mod', 'and', 'or', 'not',
         'rmem', 'wmem', 'call', 'ret', 'out', 'in', 'noop'],
@@ -69,7 +69,7 @@ var api = {
 
     //call: 17 a - write the address of the next instruction to the stack and jump to <a>
     call: (a, ...i) => {
-        api.stack.push(i[0] + 1)
+        if (api.memory[i[0] + 1] !== 18) api.stack.push(i[0] + 1)
         return value(a) - 1
     },
 
@@ -91,16 +91,22 @@ var api = {
         }
 
         //custom added commands
-        var commands = {
+        let commands = {
             'autoplay': () => {
                 return require('./spoilers/autoplay.json').join('\n') + '\n'
             },
             'hack coins': () => {
                 //load answer calculated from coin.js
-                console.log('hacking coins', input)
+                console.log('Hacking coins...', input)
                 return require('./spoilers/coin')
             },
+            'hack orb': () => {
+                console.log('hacking orb...')
+                return require('./spoilers/orb')
+            },
             'hack teleporter': () => {
+                console.log('Hacking teleporter...')
+
                 //load answer calculated from teleporter.js
                 let answer = require('./spoilers/teleporter')
 
@@ -137,7 +143,7 @@ var api = {
                 }))
             },
             load: () => {
-                var save = JSON.parse(fs.readFileSync('./spoilers/save.json', 'utf8'))
+                let save = JSON.parse(fs.readFileSync('./spoilers/save.json', 'utf8'))
                 api.memory = save.memory
                 api.register = save.register
                 api.stack = save.stack
@@ -170,10 +176,10 @@ function value(i) {
     }
 }
 
-var setRegister = (a, b) => {
+let setRegister = (a, b) => {
     api.register[a - 32768] = b
 }
-var fixMath = a => a >= 32768 ? a % 32768 : a
+let fixMath = a => a >= 32768 ? a % 32768 : a
 
 module.exports = api
 

@@ -2,7 +2,7 @@ const _ = require('lodash')
 const memory = require('./load')
 const ops = require('./ops')
 
-var i = 0
+let i = 0
 while (i < memory.length) {
     let op = memory[i]
     if (op < ops.ops.length) {
