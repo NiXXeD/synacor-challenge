@@ -16,7 +16,7 @@
     "disassemble": "node disassemble"
   },
   "author": "Andy Christianson",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "js-combinatorics": "0.5.1",
     "lodash": "4.11.2",
